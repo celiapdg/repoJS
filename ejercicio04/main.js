@@ -17,3 +17,9 @@ function imprimirInfinito(...valores) {
 }
 
 imprimirInfinito(1, 2, 3, 4, 5);
+
+for (let index = 0; index < 2000; index += 400) {
+    console.log(index);
+
+}
+
