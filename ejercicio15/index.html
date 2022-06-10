@@ -12,16 +12,35 @@
 
 <body>
     <h1>Quiz</h1>
-    <h2>¿Cual de las siguientes opciones no es un editor de código?</h2>
-    <button id="btn1">vim</button>
-    <button id="btn2">vscode</button>
-    <button id="btn3">emacs</button>
-    <button id="btn4">word</button>
+    <div class="preguntaDiv">
+        <h2>¿Cual de las siguientes opciones no es un editor de código?</h2>
+        <div class="respuestas">
+            <button class="mal">vim</button>
+            <button class="mal">vscode</button>
+            <button class="mal">emacs</button>
+            <button class="bien">word</button>
+        </div>
+
+    </div>
+
+    <div class="preguntaDiv" hidden>
+        <h2>¿De qué color es el fondo?</h2>
+        <div class="respuestas">
+            <button class="mal">negro</button>
+            <button class="mal">rojo</button>
+            <button class="bien">azul</button>
+            <button class="mal">arcoíris</button>
+        </div>
+    </div>
+
 
     <div id="final" hidden>
         Result = <span id="result">0</span>
+        <div>
+            <button id="btn5" hidden>Otra vez</button>
+        </div>
     </div>
-    <button id="btn5" hidden>Otra vez</button>
+
     <script src="main.js"></script>
 </body>
 
