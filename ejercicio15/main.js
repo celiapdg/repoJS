@@ -22,7 +22,7 @@ function hide() {
 
 function addPoint() {
     hide();
-    switch (result.innerHTML) {
+    switch (result.innerHTML) {     //o element.textContent
         case "0":
             result.innerHTML = "1";
             break;
