@@ -10,6 +10,7 @@ let puntosMaster = 0;
 
 function master() {
     opciones = ["🥌", "🧻", "✂"];
+    console.log(Math.random() * 3);
     return opciones[Math.floor(Math.random() * opciones.length)];
 }
 
