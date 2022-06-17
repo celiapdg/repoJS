@@ -9,17 +9,39 @@ body {
 }
 
 img {
-    width: 20%;
+    width: 40%;
 
 }
 
 div {
-    -webkit-transition-property: all;
-    -webkit-transition-duration: 2s;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 
+#div-on {
+    z-index: -1;
+}
+
+#bon,
+#on {
+    opacity: 0;
+}
+
+#boff {
+    opacity: 1;
+}
+
+#on,
+#off {
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
 
 #boff,
 #bon {
-    width: 5%;
+    width: 10%;
 }
