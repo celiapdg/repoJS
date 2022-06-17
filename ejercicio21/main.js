@@ -31,7 +31,7 @@ function cambiarHambre(valor) {
 
 function cambiarTamanyo(valor) {
     tamanyo += valor;
-    if (tamanyo > 100) tamanyo = 100;
+    if (tamanyo > 70) tamanyo = 70;
     if (tamanyo <= 0) {
         tamanyo = 30;
         $("img").attr('src', "pet.gif");
@@ -64,7 +64,7 @@ function cambiarFelicidad(valor) {
     felicidad += valor;
     if (felicidad > 100) felicidad = 100;
     if (felicidad < 0) felicidad = 0;
-    $(".happiness .full").css("width", `${felicidad}%`);
+    $(".img .full").css("width", `${felicidad}%`);
 }
 
 function feed1() {

@@ -18,6 +18,7 @@ body {
     top: 30%;
     left: 30%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -45,6 +46,17 @@ img {
     border-radius: 25px;
 }
 
+.img .empty {
+    width: 60%;
+    margin-top: 10px;
+    justify-self: flex-end;
+}
+
+.img p {
+    position: relative;
+    right: 20%;
+}
+
 .full {
     background: linear-gradient(180deg, rgb(0, 216, 115) 0%, rgb(0, 167, 117) 100%);
     height: 100%;
@@ -60,8 +72,8 @@ img {
 }
 
 .button {
-    height: 25px;
-    width: 25px;
+    height: 26px;
+    width: 26px;
     border-radius: 50%;
     text-align: center;
     background-color: white;
