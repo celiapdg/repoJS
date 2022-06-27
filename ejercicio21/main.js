@@ -14,7 +14,7 @@ let hambre = 80;
 let juego = 80;
 let fuerza = 80;
 let descanso = 80;
-let felicidad = 40;
+let felicidad = 40; // idealmente sería una media de hambre, juego, fuerza y descanso, pero ya lo dejo así
 
 function cambiarHambre(valor) {
     hambre += valor;
